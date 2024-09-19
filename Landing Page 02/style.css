@@ -97,6 +97,11 @@ main img {
     margin-top: 20px;/*Espaçamento acima da imagem*/
 }
 
+.content img{
+    width: 50%;
+
+}
+
 /*Estilo do rodapé*/
 footer {
     background-color: #333;/*Fundo escuro*/
@@ -228,6 +233,22 @@ footer {
 .contact button:hover {
     background-color: #555;
 }
+
+.suport {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.suport form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+} 
 
 /*Ajustes responsivos*/
 @media (max-width: 768px) {
